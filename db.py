@@ -9,7 +9,7 @@ DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sun
 SLOTS = ["Breakfast", "Lunch", "Dinner", "Snack"]
 
 DEFAULT_SETTINGS = {
-    "protein_target_g": "160",
+    "protein_target_g": "120",
     "calorie_target": "2400",
 }
 

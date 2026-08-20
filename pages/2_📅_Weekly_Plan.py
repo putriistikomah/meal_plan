@@ -9,7 +9,7 @@ db.init_db()
 st.title("📅 Weekly Plan")
 
 recipes = db.get_recipes()
-protein_target = float(db.get_setting("protein_target_g", "160"))
+protein_target = float(db.get_setting("protein_target_g", "120"))
 calorie_target = float(db.get_setting("calorie_target", "2400"))
 
 if not recipes:

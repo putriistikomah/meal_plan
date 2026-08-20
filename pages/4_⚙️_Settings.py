@@ -8,7 +8,7 @@ db.init_db()
 
 st.title("⚙️ Settings")
 
-protein_target = float(db.get_setting("protein_target_g", "160"))
+protein_target = float(db.get_setting("protein_target_g", "120"))
 calorie_target = float(db.get_setting("calorie_target", "2400"))
 
 with st.form("settings_form"):

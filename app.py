@@ -13,7 +13,7 @@ db.init_db()
 st.title("🍗 High-Protein Meal Planner")
 st.caption("Plan your week, hit your protein target, and generate a grocery list — all in one place.")
 
-protein_target = float(db.get_setting("protein_target_g", "160"))
+protein_target = float(db.get_setting("protein_target_g", "120"))
 calorie_target = float(db.get_setting("calorie_target", "2400"))
 
 plan = db.get_plan()
