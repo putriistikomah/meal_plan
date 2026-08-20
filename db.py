@@ -104,6 +104,18 @@ STARTER_RECIPES = [
                         "bubuk bawang putih, bubuk bawang bombay, paprika bubuk, kaldu jamur secukupnya",
                         "(bahan untuk 1 resep = 6 pcs; 26g protein/pcs sesuai video)"],
     },
+    {
+        # Boiled-then-blended, per user's confirmed method (not raw-strained juice) —
+        # full protein retention since nothing is discarded. Adjust the liquid
+        # ingredient/macros if you switch between milk and coconut water.
+        "name": "Jus Dada Ayam (Boiled Chicken Smoothie)",
+        "meal_type": "Breakfast",
+        "protein_g": 54, "calories": 470, "carbs_g": 40, "fat_g": 12,
+        "servings": 1, "source_url": "",
+        "ingredients": ["150g dada ayam rebus", "1 buah pisang", "50g berry (stroberi/blueberry)",
+                        "200ml susu (atau air kelapa muda, protein akan lebih rendah)",
+                        "es batu secukupnya"],
+    },
 ]
 
 
