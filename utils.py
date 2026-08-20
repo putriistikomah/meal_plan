@@ -5,17 +5,31 @@ from collections import defaultdict
 CATEGORY_KEYWORDS = {
     "Protein": ["chicken", "beef", "salmon", "fish", "shrimp", "tuna", "turkey",
                 "egg", "tofu", "whey", "protein powder", "pork", "steak",
-                "cottage cheese", "greek yogurt", "yogurt", "tempeh", "sausage"],
-    "Dairy": ["milk", "cheese", "cheddar", "butter", "cream"],
+                "cottage cheese", "greek yogurt", "yogurt", "tempeh", "sausage",
+                # Indonesian
+                "ayam", "telur", "tahu", "tempe", "ikan", "daging", "udang",
+                "bakso", "sapi"],
+    "Dairy": ["milk", "cheese", "cheddar", "butter", "cream",
+              # Indonesian
+              "susu", "keju", "mentega", "krim"],
     "Produce": ["broccoli", "spinach", "pepper", "banana", "berries", "berry",
                 "apple", "onion", "garlic", "tomato", "sweet potato", "potato",
                 "lettuce", "avocado", "lemon", "lime", "carrot", "cucumber",
-                "kale", "mushroom"],
+                "kale", "mushroom",
+                # Indonesian
+                "bayam", "kangkung", "selada", "wortel", "kol", "kubis",
+                "bawang", "tomat", "pisang", "cabai", "cabe", "jagung",
+                "kentang", "jeruk nipis", "timun", "jamur", "sayur"],
     "Grains & Starch": ["rice", "oats", "oatmeal", "bread", "pasta", "granola",
-                         "quinoa", "tortilla", "cereal"],
+                         "quinoa", "tortilla", "cereal",
+                         # Indonesian
+                         "nasi", "beras", "roti", "tepung"],
     "Pantry": ["olive oil", "oil", "soy sauce", "honey", "salt", "spice",
                "vinegar", "sauce", "stock", "broth", "flour", "sugar", "nut butter",
-               "peanut butter"],
+               "peanut butter",
+               # Indonesian
+               "minyak", "kecap", "garam", "gula", "merica", "lada", "bumbu",
+               "santan", "ketumbar", "saus", "kaldu"],
 }
 
 # roughly: "200g chicken breast" / "1 tbsp olive oil" / "3 eggs" / "1 banana"
